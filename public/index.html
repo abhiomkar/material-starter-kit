@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Material Starter Kit</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+    <link rel="stylesheet" href="/dist/index.css">
+  </head>
+  <body>
+    <main class="app">
+      <h1 class="mdc-typography mdc-typography--headline4">Material Starter Kit</h1>
+      <label class="mdc-text-field mdc-text-field--outlined custom-text-field-1" id="custom-text-field-1">
+        <input type="text" class="mdc-text-field__input" aria-labelledby="custom-label-id-1">
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span class="mdc-floating-label" id="custom-label-id-1">Example 1</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </label>
+
+      <label class="mdc-text-field mdc-text-field--outlined custom-text-field-2" id="custom-text-field-2">
+        <input type="text" class="mdc-text-field__input" aria-labelledby="custom-label-id-2">
+        <span class="mdc-notched-outline">
+          <span class="mdc-notched-outline__leading"></span>
+          <span class="mdc-notched-outline__notch">
+            <span class="mdc-floating-label" id="custom-label-id-2">Example 2</span>
+          </span>
+          <span class="mdc-notched-outline__trailing"></span>
+        </span>
+      </label>
+
+      <div class="mdc-touch-target-wrapper">
+        <button class="mdc-button mdc-button--unelevated mdc-button--touch custom-button" id="custom-button">
+          <div class="mdc-button__ripple"></div>
+          <span class="mdc-button__label">Button</span>
+          <i class="material-icons mdc-button__icon" aria-hidden="true">send</i>
+          <div class="mdc-button__touch"></div>
+        </button>
+      </div>
+      <a class="custom-link mdc-typography--body2" href="https://github.com/abhiomkar/material-starter-kit">
+        Get started
+      </a>
+    </main>
+    <script type="module" src="/dist/index.js"></script>
+  </body>
+</html>

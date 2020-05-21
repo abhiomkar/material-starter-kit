@@ -1,0 +1,32 @@
+@use "@material/typography/mdc-typography";
+@use "@material/button/mdc-button";
+@use "@material/textfield/mdc-text-field";
+
+@use "@material/textfield/mixins" as text-field;
+
+.app {
+  margin-top: 24px;
+}
+
+.custom-text-field-1,
+.custom-text-field-2 {
+  @include text-field.outlined-density(-4);
+
+  margin-bottom: 24px;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom
+.custom-button {
+  margin-left: 12px;
+}
+
+.custom-link {
+  text-decoration: underline;
+  margin: 8px 0;
+}
